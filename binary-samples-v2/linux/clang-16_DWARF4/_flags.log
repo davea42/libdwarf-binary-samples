@@ -1,0 +1,1 @@
+-g3 -ggnu-pubnames -gdwarf-4 -fdebug-types-section -fno-eliminate-unused-debug-types -gno-split-dwarf -ggdb -grecord-gcc-switches -gcolumn-info -Og

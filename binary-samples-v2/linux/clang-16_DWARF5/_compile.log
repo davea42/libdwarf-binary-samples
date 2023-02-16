@@ -1,0 +1,50 @@
+tmp/Check-If-File-Exists-Alternative-2.c:11:21: error: too few arguments to function call, expected 2, have 1
+  if(stat("file.txt") == 0) // If file.txt exists run the following code
+     ~~~~           ^
+/usr/include/x86_64-linux-gnu/sys/stat.h:453:8: note: 'stat' declared here
+__NTH (stat (const char *__path, struct stat *__statbuf))
+       ^
+1 error generated.
+tmp/Get-File-Size.c:25:41: warning: format specifies type 'int' but the argument has type 'long' [-Wformat]
+        printf("%s is %d bytes long\n",argv[1],ftell(file)); // Print the file name and total size in bytes
+                      ~~                       ^~~~~~~~~~~
+                      %ld
+1 warning generated.
+tmp/Print-First-Recurring-Character.c:12:39: warning: while loop has empty body [-Wempty-body]
+        while(!letters[c=getchar()]++);printf("First Recurring Character : %c\n",c); // loop until a repeating character is found
+                                      ^
+tmp/Print-First-Recurring-Character.c:12:39: note: put the semicolon on a separate line to silence this warning
+1 warning generated.
+tmp/if-string.c:13:14: warning: format specifies type 'char *' but the argument has type 'char (*)[256]' [-Wformat]
+  scanf("%s",&input); // Store input in input variable
+         ~~  ^~~~~~
+1 warning generated.
+tmp/kill-Process.c:14:14: error: expected expression
+        pid_t pid = [PROCESS ID]; // Pass or enter a process id to kill
+                    ^
+1 error generated.
+tmp/storage-limits.c:12:52: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("Total Storage Size Of INT In Bytes %d\n", sizeof(int));
+                                                   ~~     ^~~~~~~~~~~
+                                                   %lu
+tmp/storage-limits.c:13:53: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("Total Storage Size Of CHAR In Bytes %d\n", sizeof(char));
+                                                    ~~     ^~~~~~~~~~~~
+                                                    %lu
+tmp/storage-limits.c:14:53: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("Total Storage Size Of LONG In Bytes %d\n", sizeof(long));
+                                                    ~~     ^~~~~~~~~~~~
+                                                    %lu
+tmp/storage-limits.c:15:54: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("Total Storage Size Of FLOAT In Bytes %d\n", sizeof(float));
+                                                     ~~     ^~~~~~~~~~~~~
+                                                     %lu
+tmp/storage-limits.c:16:61: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("Total Storage Size Of UNSIGNED INT In Bytes %d\n", sizeof(unsigned int));
+                                                            ~~     ^~~~~~~~~~~~~~~~~~~~
+                                                            %lu
+tmp/storage-limits.c:17:62: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("Total Storage Size Of UNSIGNED CHAR In Bytes %d\n", sizeof(unsigned char));
+                                                             ~~     ^~~~~~~~~~~~~~~~~~~~~
+                                                             %lu
+6 warnings generated.
